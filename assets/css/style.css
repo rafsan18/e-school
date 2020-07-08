@@ -1,0 +1,170 @@
+/* global */
+.container {
+  margin-bottom: 60px;
+}
+.button {
+  border: none;
+  color: #ffffff;
+  border-radius: 33px;
+  background-color: #21b573;
+}
+.light-green-bg {
+  background-color: #f0fff0;
+}
+.padding-btm {
+  padding-bottom: 2px;
+}
+
+/* Navbar */
+.nav-item {
+  font-weight: 600;
+  margin-left: 25px;
+}
+#logo-dim {
+  width: 198px;
+  height: 59px;
+}
+
+.sign-in-btn {
+  width: 104px;
+  height: 44px;
+  padding: 10px 20px;
+}
+
+/* Banner */
+
+.green-highlight {
+  color: #21b573;
+}
+.banner-title {
+  width: 405px;
+  height: 140px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+.banner-text {
+  width: 403px;
+  font-size: 16px;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+.get-start-btn {
+  width: 152px;
+  height: 46px;
+  padding: 12px 36px;
+}
+/* Services */
+
+.services {
+  margin-top: 30px;
+  height: 270px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #f8fffb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+.services:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 10px 10px 35px 10px rgba(209, 205, 209, 1);
+  -moz-box-shadow: 10px 10px 35px 10px rgba(209, 205, 209, 1);
+  box-shadow: 10px 10px 35px 10px rgba(209, 205, 209, 1);
+  transform: scale(1.1);
+}
+.services h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.service-img-dim {
+  width: 66px;
+  height: 85px;
+}
+/* End of Services */
+/* Start of courses */
+#courses {
+  margin-top: 100px;
+}
+h2 {
+  margin-bottom: 60px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  transition: transform 1s ease-in-out;
+}
+h2:hover {
+  transform: scale(1.2);
+}
+
+.buy-course-btn {
+  width: 137px;
+  height: 38px;
+  padding: 7px 28px;
+}
+.card,
+.card-footer {
+  border: none;
+  border-radius: 18px;
+}
+.card {
+  -webkit-box-shadow: 10px 10px 35px 10px rgba(209, 205, 209, 1);
+  -moz-box-shadow: 10px 10px 35px 10px rgba(209, 205, 209, 1);
+  box-shadow: 10px 10px 35px 10px rgba(209, 205, 209, 1);
+}
+.card img {
+  padding: 10px;
+  border-radius: 11px;
+}
+.card-footer {
+  background-color: #ffffff;
+}
+/* Testimonial */
+#testimonial {
+  margin-top: 100px;
+}
+.testimonial-text {
+  font-weight: 500;
+}
+footer {
+  background-color: #282531;
+  color: #ffffff;
+}
+footer .container {
+  margin-bottom: 0;
+}
+footer p,
+footer ul {
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+  font-weight: 300;
+}
+ul > :first-child {
+  font-size: 18px;
+  font-weight: 700;
+}
+.copyright {
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+
+/* Extra */
+#subscribe .container {
+  margin-bottom: 0;
+  padding: 50px 0;
+}
+.submit-btn {
+  width: 137px;
+  height: 38px;
+  padding: 7px 28px;
+}
+.submit-btn,
+input {
+  margin-top: 20px;
+}
