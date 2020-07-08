@@ -168,3 +168,10 @@ ul > :first-child {
 input {
   margin-top: 20px;
 }
+
+.book-img {
+  height: 300px;
+}
+#books .card {
+  border-radius: 0;
+}
